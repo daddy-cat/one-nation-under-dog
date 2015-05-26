@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==== Reset default browser CSS ================================================ */
+*{ padding:0px; margin:0px;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	color: #CDCA90;
+}
+body{ font:400 15px/20px 'Arial'; color:#BBA35D;}
+p{
+	font: 400 18px/20px 'Arial';
+	color: #BBA35D;
+	padding-bottom: 20px;
+}
+body{ background:#00003D;}
+.mainWrapper{ width:1000px; margin:0px auto;}
+
+.mainWrapper .header .logo{ background:url(../images/sprite.png) 0px -19px no-repeat; width:350px; height:71px; margin:0px auto; display:block; overflow:hidden; text-indent:-9999px; margin-top:25px;}
+
+
+h1{ font:400 30px/30px 'Times New Roman'; color:#bba35d; text-align:center; padding-bottom:15px;}
+h3{
+	font: 400 21px/21px 'Times New Roman';
+	color: #CDC374;
+	text-align: left;
+	padding: 20px 0 12px 0;
+}
+h3 a {color:#bba35d; text-decoration:underline;}
+h3 a:hover{color:#bba35d; text-decoration:none;}
+p i {display:block; font:700 15px/20px 'Arial'; font-style:normal; color:#CDCA90; padding-bottom:6px;}
+
+/* ==== Main Navigation ================================================ */
+.mainWrapper .mainNav{ background:url(../images/sprite.png) left -466px; width:1000px; height:32px;clear: both;}
+mainWrapper .mainNav ul.menu {
+    display: inline-block;
+    margin: 0 70px;
+    width: 600px;
+}
+.mainWrapper .mainNav ul.menu li{
+	float: left;
+	list-style: none;
+	background: url(../images/sprite.png) left -119px no-repeat;
+	padding-left: 50px;
+	margin-right: 22px;
+}
+.mainWrapper .mainNav ul.menu li.first{ background:none; padding-left:0px;}
+.mainWrapper .mainNav ul.menu li a{ color:#2b1f07; font-size:19px; line-height:32px; text-decoration:none; float:left; transition: all .25s ease-in-out; -moz-transition: all .25s ease-in-out; -webkit-transition: all .25s ease-in-out; -ms-transition: all .25s ease-in-out;}
+.mainWrapper .mainNav ul.menu li a:hover{color:#fff;} 
+
+/*===============================call box part start==============*/
+.mainWrapper .mainNav ul.call{
+	margin: 0px 20px;
+	width: 200px;
+	display: inline-block;
+	float: right;
+}
+.mainWrapper .mainNav ul.call li{
+	list-style: none;
+	line-height: 32px;
+	font: 400 19px/32px 'Times New Roman';
+	color: #2b1f07;
+	padding-left:0px;
+	
+}
+/*==============================call box part end=============================*/
+
+/*==============================content part box start=============================*/
+.mainWrapper .contentBody{
+	width: 960px;
+	background-color: #000000;
+	padding: 20px 20px 12px 20px;
+	overflow: hidden;
+	margin-bottom: 34px;
+}
+
+/*=================left part box start===============*/
+.mainWrapper .contentBody .left{
+	width: 750px;
+	padding-right: 20px;
+	float: left;
+	background: #000;
+}	
+/*=================left part box end===============*/
+
+/*=================right part box start===============*/
+.mainWrapper .contentBody .right{width:190px; float:right; overflow:hidden;}	
+.mainWrapper .contentBody .right .images{ padding-top:36px; clear:both; position:relative;}
+.mainWrapper .contentBody .right .scroll{clear:both; width:100%; padding-bottom:20px; margin-top:20px;}
+.mainWrapper .contentBody .right .scroll h3{font:400 19px/21px 'Times New Roman'; color:#bba35d; text-align:left;}
+.mainWrapper .contentBody .right .one-nation{clear:both; width:100%; text-align:center;}
+.mainWrapper .contentBody .right .one-nation h1{ font:400 15px/21px 'Arial'; color:#bba35d; text-decoration:underline;}
+.mainWrapper .contentBody .right .one-nation h1 a{ font:400 15px/21px 'Arial'; color:#bba35d; text-decoration:underline;}
+.mainWrapper .contentBody .right .one-nation h1 a:hover{ font:400 15px/21px 'Arial'; color:#bba35d; text-decoration:none;}
+.mainWrapper .contentBody .right .learn-more{clear:both; width:100%;}
+.mainWrapper .contentBody .right .learn-more ul.more{display:block;}
+.mainWrapper .contentBody .right .learn-more ul.more li.web{list-style:none; padding:10px 0 10px 40px; font:400 15px/18px 'Arial'; color:#b39a58;
+                                                        background:url(../images/sprite.png) 0 -498px no-repeat transparent; }
+.mainWrapper .contentBody .right .learn-more ul.more li.fac{list-style:none; padding:10px 0 10px 40px; font:400 15px/18px 'Arial'; color:#b39a58;
+                                                        background:url(../images/sprite.png) 0 -548px no-repeat transparent; }
+.mainWrapper .contentBody .right .learn-more ul.more li.twi{list-style:none; padding:10px 0 10px 40px; font:400 15px/18px 'Arial'; color:#b39a58;
+                                                        background:url(../images/sprite.png) 0 -658px no-repeat transparent; }														
+.mainWrapper .contentBody .right .learn-more ul.more li span a{font:400 11px/18px 'Arial'; color:#b39a58; display:block;}
+.mainWrapper .contentBody .right .learn-more ul.more li span a:hover{ text-decoration:none;}
+/*=================right part box end===============*/
+
+
+h1{ font:400 30px/21px 'Times New Roman'; color:#bba35d;}
+/*==============================content part part end=============================*/
+
+.footer{ width:100%; border-top:1px solid #282014; clear:both; margin-top:12px; float:left; font:400 11px/18px 'Arial'; color:#BBA35D; padding-top:8px;}
+
+.copywhite{font:400 19px/30px 'Times New Roman'; color:#bba35d; text-align:left;}
+.copy{display:block; font:400 15px/20px 'Arial'; color:#b39a58;}
+
+
+p a{font:400 15px/20px 'Arial'; color:#b39a58;}
+p a:hover{text-decoration:none;}
+ol{ display:block; margin-left:30px;}
+ol li{list-style:decimal; padding-bottom:10px;}
